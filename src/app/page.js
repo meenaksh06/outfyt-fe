@@ -1,13 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaSnapchatGhost,
-  FaTwitter,
-} from "react-icons/fa";
-
 export default function Home() {
   return (
     <>
@@ -29,100 +22,105 @@ export default function Home() {
           <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
             <h1 className="text-7xl font-bold font-[Libre_Bodoni]">OUTFYT</h1>
             <div className="w-20 h-[2px] bg-white my-6"></div>
-            <button className="px-6 py-3 border-2 border-white text-white hover:bg-white hover:text-black transition">
-              Shop Now
-            </button>
+            <Link href="/main">
+              <button className="px-6 py-3 border-2 border-white text-white hover:bg-white hover:text-black transition">
+                Shop Now
+              </button>
+            </Link>
           </div>
         </div>
 
-        <footer className="bg-[#1E1C24] text-white w-full">
-          <div className="max-w-7xl mx-auto px-6 py-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
-              <div>
-                <h3 className="text-lg font-bold uppercase">NEED HELP</h3>
-                <ul className="mt-4 space-y-3">
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      CONTACT US
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      RETURN AND REFUNDS
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      FAQ’S
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      MY ACCOUNT
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div className="bg-[#232029] text-white">
+        <div className="flex justify-between px-16 py-6">
+          <div className="text-lg">NEED HELP</div>
+          <div
+            className="text-lg font-semibold"
+            style={{ transform: "translateX(-100px)" }}
+          >
+            COMPANY
+          </div>
+          <div
+            className="text-lg font-semibold"
+            style={{ transform: "translateX(-200px)" }}
+          >
+            FOLLOW US
+          </div>
+        </div>
 
-              <div>
-                <h3 className="text-lg font-bold uppercase">COMPANY</h3>
-                <ul className="mt-4 space-y-3">
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      ABOUT US
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      CAREERS
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-sm hover:text-gray-400">
-                      OUTFYT ARMY
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div className="bg-[#A3ABCD] text-black px-16 py-8 grid grid-cols-3 gap-50">
+          <div className="flex flex-col gap-4">
+            <a href="#" className="hover:underline">
+              CONTACT US
+            </a>
+            <a href="#" className="hover:underline">
+              RETURN AND REFUNDS
+            </a>
+            <a href="#" className="hover:underline">
+              FAQ’S
+            </a>
+            <a href="#" className="hover:underline">
+              MY ACCOUNT
+            </a>
+          </div>
 
-              <div>
-                <h3 className="text-lg font-bold uppercase">FOLLOW US</h3>
+          <div className="flex flex-col gap-4">
+            <a href="#" className="hover:underline">
+              ABOUT US
+            </a>
+            <a href="#" className="hover:underline">
+              CAREERS
+            </a>
+            <a href="#" className="hover:underline">
+              OUTFYT ARMY
+            </a>
+          </div>
 
-                <div className="flex flex-wrap gap-4 mt-4">
-                  <div className="flex gap-4 w-full">
-                    <a
-                      href="#"
-                      className="p-2 rounded bg-white hover:opacity-75"
-                    >
-                      <FaFacebookF className="text-[#1877F2] w-6 h-6" />
-                    </a>
-                    <a
-                      href="#"
-                      className="p-2 rounded bg-white hover:opacity-75"
-                    >
-                      <FaInstagram className="text-pink-500 w-6 h-6" />
-                    </a>
-                  </div>
+          <div className="flex flex-col gap-4">
+            <div className="flex gap-4">
+              <a
+                href="https://www.facebook.com/profile.php?id=61573891667487"
+                className="p-2 rounded hover:opacity-75"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+                  alt="Facebook"
+                  className="w-10 h-10"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/outfytofficial/?hl=en"
+                className="p-2 rounded hover:opacity-75"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                  alt="Instagram"
+                  className="w-10 h-10"
+                />
+              </a>
+            </div>
 
-                  <div className="flex gap-4 w-full mt-2">
-                    <a
-                      href="#"
-                      className="p-2 rounded bg-white hover:opacity-75"
-                    >
-                      <FaSnapchatGhost className="text-yellow-400 w-6 h-6" />
-                    </a>
-                    <a
-                      href="#"
-                      className="p-2 rounded bg-white hover:opacity-75"
-                    >
-                      <FaTwitter className="text-black w-6 h-6" />
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div className="flex gap-4">
+              <a href="#" className="p-2 rounded hover:opacity-75">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png"
+                  alt="Twitter"
+                  className="w-10 h-10"
+                />
+              </a>
+              <a
+                href="https://www.threads.net/@outfytofficial?xmt=AQGziKYqq6AXeIZysrDhZGdUdRTHq8m1pXn-OUDj9yNmb8Q"
+                className="p-2 rounded hover:opacity-75"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
+                  alt="Threads"
+                  className="w-10 h-10"
+                />
+              </a>
             </div>
           </div>
-        </footer>
+        </div>
+      </div>
       </div>
     </>
   );
