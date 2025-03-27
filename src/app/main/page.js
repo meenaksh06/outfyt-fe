@@ -44,10 +44,14 @@ export default function MainPage() {
               <FaSearch className="w-6 h-6" />
               <p className="text-xs">SEARCH</p>
             </MenubarTrigger>
+            
+            <Link href="/login">
             <MenubarTrigger className="flex flex-col items-center gap-1 hover:bg-[#11141B] hover:text-white transition">
               <FaUser className="w-6 h-6" />
               <p className="text-xs">PROFILE</p>
             </MenubarTrigger>
+            </Link>
+
           </MenubarMenu>
         </Menubar>
 
