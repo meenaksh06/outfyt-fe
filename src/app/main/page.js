@@ -2,7 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { FaShoppingCart, FaSearch, FaUser } from "react-icons/fa";
 
-import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
+import { Menubar, MenubarMenu, MenubarTrigger } from "../../components/ui/menubar";
 
 export default function MainPage() {
   return (
@@ -44,14 +44,13 @@ export default function MainPage() {
               <FaSearch className="w-6 h-6" />
               <p className="text-xs">SEARCH</p>
             </MenubarTrigger>
-            
-            <Link href="/login">
-            <MenubarTrigger className="flex flex-col items-center gap-1 hover:bg-[#11141B] hover:text-white transition">
-              <FaUser className="w-6 h-6" />
-              <p className="text-xs">PROFILE</p>
-            </MenubarTrigger>
-            </Link>
 
+            <Link href="/login">
+              <MenubarTrigger className="flex flex-col items-center gap-1 hover:bg-[#11141B] hover:text-white transition">
+                <FaUser className="w-6 h-6" />
+                <p className="text-xs">PROFILE</p>
+              </MenubarTrigger>
+            </Link>
           </MenubarMenu>
         </Menubar>
 
