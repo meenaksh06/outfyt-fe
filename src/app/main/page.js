@@ -2,7 +2,13 @@ import Link from "next/link";
 import Head from "next/head";
 import { FaShoppingCart, FaSearch, FaUser } from "react-icons/fa";
 
-import { Menubar, MenubarMenu, MenubarTrigger } from "../../components/ui/menubar";
+import {
+  Menubar,
+  MenubarMenu,
+  MenubarTrigger,
+} from "../../components/ui/menubar";
+
+import Footer from "../../app/footer/page";
 
 export default function MainPage() {
   return (
@@ -15,7 +21,7 @@ export default function MainPage() {
       </Head>
 
       <div className="w-screen h-screen overflow-hidden relative">
-        <Menubar className="bg-[#99A5CB] h-20 gap-10  top-0 left-0 w-full z-50">
+        <Menubar className="bg-[#99A5CB] h-20 gap-10  top-0 left-0 w-full z-50 rounded-none border-none">
           <MenubarMenu>
             <MenubarTrigger>
               <img
@@ -38,17 +44,17 @@ export default function MainPage() {
             </MenubarTrigger>
             <MenubarTrigger className="flex flex-col items-center gap-1 hover:bg-[#11141B] hover:text-white transition ml-auto">
               <FaShoppingCart className="w-6 h-6" />
-              <p className="text-xs">CART</p>
+              {/* <p className="text-xs">CART</p> */}
             </MenubarTrigger>
             <MenubarTrigger className="flex flex-col items-center gap-1 hover:bg-[#11141B] hover:text-white transition">
               <FaSearch className="w-6 h-6" />
-              <p className="text-xs">SEARCH</p>
+              {/* <p className="text-xs">SEARCH</p> */}
             </MenubarTrigger>
 
             <Link href="/login">
               <MenubarTrigger className="flex flex-col items-center gap-1 hover:bg-[#11141B] hover:text-white transition">
                 <FaUser className="w-6 h-6" />
-                <p className="text-xs">PROFILE</p>
+                {/* <p className="text-xs">PROFILE</p> */}
               </MenubarTrigger>
             </Link>
           </MenubarMenu>
@@ -62,7 +68,7 @@ export default function MainPage() {
           />
 
           <div className="absolute bottom-30 left-1/2 transform -translate-x-1/2 z-10">
-            <button className="px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-black transition text-2xl font-bold">
+            <button className="px-8 py-4 border-7 border-white text-white hover:bg-white hover:text-black transition text-5xl font-bold">
               Shop Now
             </button>
           </div>
@@ -149,14 +155,14 @@ export default function MainPage() {
       </div>
 
       <div className="bg-white p-10 py-1">
-        <div className="bg-blue-900 py-6">
-          <p className="font-[Libre_Bodoni] text-white text-6xl text-center">
+        <div className="bg-[#99A5CB] py-6">
+          <p className="font-[Libre_Bodoni] text-[#11141B] text-6xl text-center">
             CATEGORIES
           </p>
           <div className="flex justify-center items-center mt-2">
-            <div className="w-12 h-[1.5px] bg-white"></div>
-            <div className="w-64 h-[3px] bg-white mx-2"></div>
-            <div className="w-12 h-[1.5px] bg-white"></div>
+            <div className="w-12 h-[1.5px] bg-[#11141B]"></div>
+            <div className="w-64 h-[3px] bg-[#11141B] mx-2"></div>
+            <div className="w-12 h-[1.5px] bg-[#11141B]"></div>
           </div>
         </div>
 
@@ -185,97 +191,7 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="bg-[#232029] text-white">
-        <div className="flex justify-between px-16 py-6">
-          <div className="text-lg">NEED HELP</div>
-          <div
-            className="text-lg font-semibold"
-            style={{ transform: "translateX(-100px)" }}
-          >
-            COMPANY
-          </div>
-          <div
-            className="text-lg font-semibold"
-            style={{ transform: "translateX(-200px)" }}
-          >
-            FOLLOW US
-          </div>
-        </div>
-
-        <div className="bg-[#A3ABCD] text-black px-16 py-8 grid grid-cols-3 gap-50">
-          <div className="flex flex-col gap-4">
-            <a href="#" className="hover:underline">
-              CONTACT US
-            </a>
-            <a href="#" className="hover:underline">
-              RETURN AND REFUNDS
-            </a>
-            <a href="#" className="hover:underline">
-              FAQ’S
-            </a>
-            <a href="#" className="hover:underline">
-              MY ACCOUNT
-            </a>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <a href="#" className="hover:underline">
-              ABOUT US
-            </a>
-            <a href="#" className="hover:underline">
-              CAREERS
-            </a>
-            <a href="#" className="hover:underline">
-              OUTFYT ARMY
-            </a>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <div className="flex gap-4">
-              <a
-                href="https://www.facebook.com/profile.php?id=61573891667487"
-                className="p-2 rounded hover:opacity-75"
-              >
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
-                  alt="Facebook"
-                  className="w-10 h-10"
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/outfytofficial/?hl=en"
-                className="p-2 rounded hover:opacity-75"
-              >
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-                  alt="Instagram"
-                  className="w-10 h-10"
-                />
-              </a>
-            </div>
-
-            <div className="flex gap-4">
-              <a href="#" className="p-2 rounded hover:opacity-75">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png"
-                  alt="Twitter"
-                  className="w-10 h-10"
-                />
-              </a>
-              <a
-                href="https://www.threads.net/@outfytofficial?xmt=AQGziKYqq6AXeIZysrDhZGdUdRTHq8m1pXn-OUDj9yNmb8Q"
-                className="p-2 rounded hover:opacity-75"
-              >
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
-                  alt="Threads"
-                  className="w-10 h-10"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </>
   );
 }
