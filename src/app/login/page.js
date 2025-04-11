@@ -97,7 +97,7 @@ export default function LoginPage() {
             Sign in with Google
           </button>
 
-          <p className="mt-4 text-center text-sm text-white">
+          <p className="mt-4 text-center text-sm text-[#201A2A]">
             Don’t have an account?{" "}
             <Link href="/register">
               <span className="font-semibold cursor-pointer hover:underline">

@@ -62,7 +62,7 @@ export default function MainPage() {
 
         <div className="w-screen h-screen relative">
           <img
-            src="https://s3-alpha-sig.figma.com/img/096d/b9af/83cda44664ce8b713a6ab1d96d868a2c?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JTQrk0nJzvtaYwkAUADi4RVEGLPf0QBvB8zbahKlm-RNMPlomgL64WfSxyvo5IlFHHQ9AhFX3xyRil~F6zJueb4-LESKunEpoW4EHuy1uh26ysyXU4ZVboP8U1nEGxeK6SJ9H~CAMmwFBemNooavfSzMh1hQu~4dsimyzt3dUySK2qP8en-jW8iX9t9bs0WfVOMIuEB1asZHbQxTUqjcZTXlpX1WpDUoTITzqJsQxSSoGPIdfc7TwdPZb55z-GUjwrdW71~J-miZSEh400bPnMF~xQZsGsI3Lt4mI7M4k2jzzNo8664b1UiWSfIRRh3Rb1wF0B6sA388K5~iVnCOhg__"
+            src="https://s3-alpha-sig.figma.com/img/096d/b9af/83cda44664ce8b713a6ab1d96d868a2c?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=heTq-szKgfqHZ2lHdqaOS9fxGkeCSVt2CnC~SK5Jo6~nGKgcMjK6t0oaRzWdsU7h0q3LG5Etf7Gtx8m~vdzuzCPbLy8sKIddnQENqknKS9n7XbQm9kdQ2WqbeKVfrFFS4kNFkoGNeyZ2~Xko5mffEjYDwod2-1S8wLgnDZZ6qWtPxp-RoA4vlaZDnGsjADhtuOr7~JsVqgQeU5Q~M~Wi7acFr31oFohVOhMduDqS8CGUleqMDuPnHOI6wwYpQ46bDkbIfo4JlxYfWvB12XHa7SOk1J2b6efRIIrLHC8TKcez0JwuSAG99YlB3uWyFOe~~LXU2f89J~Qo5bdf5u35HQ__"
             alt="Image"
             className="w-full h-full"
           />
@@ -87,17 +87,17 @@ export default function MainPage() {
 
       <div className="flex justify-center items-center gap-3 px-10 py-10">
         <img
-          src="https://s3-alpha-sig.figma.com/img/11b3/ad80/b58a6b7f5a88980aa4615d6e380395e5?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=b40JzsCrkAbTrsb5Qacfbw2CkCPJfzvuBBfvTFv~zKxz8fw~dbcozED-fEW5fQeVYB49uxwOfcmpj-Jtg-~m4F5RE-BTW4kP51bp4kRj9QG-yXrjPgv-ojr0Pp1XSYcpj62FdTokD9R5nyYuk1ZUQP4jYeLMhN9wgikIeDk11ImxjTXp11b59eI~-I2j8ndqavrYIKf9FL5sAqHD480~eu5N9ZzGbg~cUowRApYa2gn5vX1aF72nFzS1aJRI9TISIktisg0N29e7DW8lKKrmSTkytEzCLBurE5zV4pBQKlfBfY1a1S36eQUmsUy8-HBjDfe13AKPrq4nnbquBUVN1Q__"
+          src="https://s3-alpha-sig.figma.com/img/11b3/ad80/b58a6b7f5a88980aa4615d6e380395e5?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=s7EITGb3-8GtR4zV1lh0zLtqm8RjEvK3cFXyvPoLQyfzSceSlZdud8ptALfLPn0mNpXT-INipaIPevjhdMBdmzCHw1~aec-V9pdmCt8mE~oH01rT-w6vDXBH6c7FIfODNa9E1ctCay7zuQArij7TjefdyoK-AGWBuslxLvAYNKG1uGOmbVPcX4ZbxToz1ZYiEgR0lt4bRBOvkXTDRUaBwJTefcYMyY7psqUBw5CtC4VaKjz3o2iJl9szpgVEs4OOYxQ25vfTfTQJhiI07d31t9qiV7kd62ZXg9JSRFWIxGiB8e8OgdaT1FPYdAZWl~o4HoUGwnqMQ~Ueo1ts4rBSTQ__"
           alt="Image"
           className="w-1/3 h-auto object-cover"
         />
         <img
-          src="https://s3-alpha-sig.figma.com/img/46b6/390a/de4ded019ad0e832c21119717741850d?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Em576anugpF-bN4e7Lypr0D0YchlWw0ideO5F9U4QqtC2bWEI1PUDRxBZ-Mcj3X5dYzLK4BsmykHsTEM5X5TKY3HZla~TQm51JQpV3qHoXZOLOBzz9WJ~E9coMaxQo8UIQUT9qZBKYRBwGKW~0ECe2N1ft3SXv8qCrsbfDBDueEFhkieINj9CzxmW7lE03MYb~bQ5CHRNFTudDQ3fahO-2DTgW3jiByFiDv09-EpnXc3n5amNue305NXR8spFl9x7jFEZCg4olpgVpALEeegMI3lSdQnwG1BOIs1x2iZmq4aPW0iev0phmC9b9EDtmh03HwjrkSOJn1w58pd00m5lA__"
+          src="https://s3-alpha-sig.figma.com/img/46b6/390a/de4ded019ad0e832c21119717741850d?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tfR9xIkiLORi-uNZvgqo-PDin8Y-KQFsusxqLX7sguYuLLh-7XaG6Nr797lyYDXnJ5tLqvGHTwzlE5K4~ymSRRcmaaSJF279xZw~Q4MxFDtY8NwQINzxEJ3LMkBBoyL-QuF6xeTZd~Vtat8313~8cFlgFHakJOjbPITOoO4tyq5m9NaYFoiSEqB2qLSGWbTCgBiRhJkFVnWL~-U2gWRENhUP7ykgmtt11sUoXVr5~yQQMFd~Pca0pepywBNPCZWTcJ7QpqwjVue80ZlWhvMO0Un2odAW5D2bdyYYY3xELnl7Wfp5~K224qUhdJgfSrVxRD3rE2aGDBB4sY5xhQHT6w__"
           alt="Image"
           className="w-1/3 h-auto object-cover"
         />
         <img
-          src="https://s3-alpha-sig.figma.com/img/bbeb/8607/7cc63107e1850d2fee97bc9c43598dd9?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cedFDPbIKOKE-iDqTh5LYuwNVXFidpUL46ZtPpCoSlYnaEwjLiPzw5S4KQW2egB3ueXSsoYqno9N4fdQ~u2-FDf7A8nRLx6SMo219V0mACVb7aId03NWrrLd~qcft7ENsxJg3facXPys6bc5xlcTlBf7aaTn45rPd8xQPgd45mmyKEx4WBkAvSG5KdsCoCYCsj0c8CrHkCMuVZX8D-0ByQWsE958WoRi2BV5sYVeDo-QeC~SRSmyVrw3nlU5GYQ~1J5vZ8BPN77dqFOx-mqkk20vFJsBHTrrOprFCilhTm1wjU9m0ES1Mx-9vwLoGZWQt1bJw1tkwFZVnHGJ96pICQ__"
+          src="https://s3-alpha-sig.figma.com/img/bbeb/8607/7cc63107e1850d2fee97bc9c43598dd9?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=J8esJgFWQJBqgYnJRNzIOGi2vi1G0KC1MHffmSlWa-Iue5PTUmIytKzUobO1FmC5lJ32gBJny50jU6oZhKYRVh2LuDdOTYGVI7b6WU~G4RhoDw9cCaG~VmE8f1tS-TUAI1oJ14O74Iej5TtLdhqnvxCWPGqwFAjlO-EedQaO9Gowh2C~heNmt~dtjKFOkHuGGjC4WeBWV1PiPSzImgzraGrsg4HvI~ebmVP1q3Tl-6rWsyEhn8eCLYdJLuW0jNojSAGzlnGdI0NLlHk3Q5~F3ai1oTsb2T9wZTOyzUlNXRZZzRN0LjqMlrg-DgKy685P6uH0uWZj~hwPaIZVwe-WmA__"
           alt="Image"
           className="w-1/3 h-auto object-cover"
         />
@@ -169,7 +169,7 @@ export default function MainPage() {
         <div className="grid grid-cols-2 gap-4 mt-4">
           <div className="relative">
             <img
-              src="https://s3-alpha-sig.figma.com/img/eaa2/4863/9256300a3898afec8996adb3f250bc9d?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YoaE27zex7W0bIdUcfRszn8OguEPVVpDWFmOgCMveC~8gURTPkgC1w0YqZrpSAdTHs0HLLq1f7sIR7kRgpmo7~p1SPDk7IKMIZdAY7f~AyBlZKgr~xI5aazPr7BBd2EA~3SO-W6HRPbFQMVY7AysEy-ONPN~W8bM5pA54VIGVBDdHqUkoWGZA3wq6nH616OjYxTVkhbXFPK5XJpEOg6MxyTGm1B968DQKs~k2WiYHeFccFEmlIjuIf~gLI6-RJ7FCFxoQWK~zFz1yy7tlbihJz~FO0ydF~JTXLkDdqHNhQyzV1BAv75J4uy0W6fim~jTYK67ZRPMZ-BE0Xj1ULSUew__"
+              src="https://s3-alpha-sig.figma.com/img/eaa2/4863/9256300a3898afec8996adb3f250bc9d?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=G52bQn~QtLwN-w6HMrdea9-jAH7g~oRP4HTjcCqSDa4wDdtfVvFq~-5Wz8qkG1lv1Ttcy8NFQCIs9EPWpFM440Kr3iklBcKLQe~D49wFmEEl6FOsV9oI9f4pOfy7F3Afvsj6CcJEfSUHHnbq7SjLG1YGgAairhe7qIaXfxpNGLeImTinGtUXRO09t6rRBiA7TrN5L3ylJUPgZHWraPt6hY1PiU8kqCvBavHYK4zbYHpEda5Ghkp1gFrTa8hNplg~4q6w-uz5s-uDfDlKsuko6Ugh6EXBpu5MlzcNtebrgmRhXnlTbSC7DAXnMvKR4t2gm6rezUjE17DHYkmQ23lzoQ__"
               alt="Men"
               className="w-full h-auto object-cover"
             />
@@ -180,7 +180,7 @@ export default function MainPage() {
 
           <div className="relative">
             <img
-              src="https://s3-alpha-sig.figma.com/img/240e/d1f6/915784132ebb9ea59e7fddc0bd17d4d1?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hrkC4I4CRs-JFZ2PVbH1pR5DHZOca-36C~Y-lDmPCNc9rbEOWiFK2T98zv1PwLXnxGKy3RHemfdjY9ad3jd8hdrNvZ2u5E2hEcylHqDF~vH3gbRxqpMjACG-2pZ~dM3Xim5THXqgQBPTIUMiW7RMecwd7-fq7BQeuFXtl-zyQdyzXzefy~dW2cQfGN1K~QgobxksoZR7nVx2pE-RTCHCb5cSjRhEvkR4WLS0Azi4JV018wezevdB3GVpfQ-QmGFLLd8RLQp4yA5iTmJkTPrRy9uqe9mEsG0iJCE4NpuZ4p4szMNql3ec3QnGv4tx8gJ3MHzZjDPS7Cu~5dYA840wcg__"
+              src="https://s3-alpha-sig.figma.com/img/240e/d1f6/915784132ebb9ea59e7fddc0bd17d4d1?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bZV9DWupOU6C7oKXUfihUnhTzCD8b~3IRFtlSK5lvYVp4codOPb4WmheCs-VT8xw7crAZkFpxPRygwUg09qMKk9zA80n4yyU2phi6ZB5zAExMGEUBtCamt8YRi0BUo9Om1~Qx-JdoniXvMptLLY9eGbzOdzZhQwvY9d7SSQTzaZjIZF~d6RRMbYrztPv7yxzRqD609B2H6CsdoHzIx4VbHrGydc2R4p6rKmVriRwiCX7PY0mmC0VA4SQhipqTVjuulgzg4lcRmY67w8AxJLltoRRdHUNipDepjOsdc3lDhpNe09bIfNHzycckQ32Rw61h0eW8rfv4p7gpmYMfgu5Og__"
               alt="Women"
               className="w-full h-auto object-cover"
             />
